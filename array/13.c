@@ -14,5 +14,4 @@ num2 = c[4]&0xff | (c[5]&0xff)<<8;
 printf("%d\n",num2);
 
 printf("%x %x\n",'f','e');
-
 }
