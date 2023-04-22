@@ -3,7 +3,7 @@
 #include<stdio.h>
 void main()
 {
-	int a[10],i,ele,sum=0,product=1;
+	int a[10],i,ele,sum=0,product=1; 
 	ele = sizeof(a)/sizeof(a[0]);
 
 	printf("Enter the array element..\n");
