@@ -1,4 +1,4 @@
-/*WAP To find out the prime numbers between two numbers*/
+/*WAP To find out the Armstrong numbers between two numbers*/
 #include<stdio.h>
 void main()
 {
