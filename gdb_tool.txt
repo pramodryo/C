@@ -1,0 +1,35 @@
+ * gdb - The GNU Debugger *
+ 
+ The purpose of a debugger such as GDB is to allow you to see what is going on "inside" another program while it executes -- or what another
+       program was doing at the moment it crashed.
+
+       GDB can do four main kinds of things (plus other things in support of these) to help you catch bugs in the act:
+
+       •   Start your program, specifying anything that might affect its behavior.
+
+       •   Make your program stop on specified conditions.
+
+       •   Examine what has happened, when your program has stopped.
+
+       •   Change things in your program, so you can experiment with correcting the effects of one bug and go on to learn about another.
+
+       You can use GDB to debug programs written in C, C++, Fortran and Modula-2.
+       
+       --------------------------------------------------------------------------------------------------------------------------------------------------
+       ----Steps to perfome gdb Debbuger------
+      p1.c   or p1.cpp   ----> file name
+      
+      1->  cc -g p1.c
+      2-> gdb a.out
+      
+      3-> b main      (breakpoint to main)
+      4-> run    (start running program one by one instruction)
+      5-> next    (run next instuction)
+      6-> next    (run next instuction)
+      .
+      .
+      .
+      quit or q
+      --------------------------------------------------------------------------------------------------------------------------------------------------------
+      print/d          -> print decimal number
+      print/o          --> print octal number
