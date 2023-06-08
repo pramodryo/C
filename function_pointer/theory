@@ -1,8 +1,13 @@
 Function Pointer:- A function pointer is a variable that holds the address of a function.
 
+syntax:
+        void (*p)(int, int);   p is function pointer which takes two integer argument.
+
 note: we can call a function in a two ways
 1. using directly by function name 
 2. by using function pointer.
 
 
 CALLBACK FUNCTION: a function which takes address of another function as an argument called callback function.
+
+int ABC(int, int, int(*p)(int, int));   ABC is a function which takes three arguments two integer and one function address
