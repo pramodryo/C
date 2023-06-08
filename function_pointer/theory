@@ -1,1 +1,8 @@
-hello 
+Function Pointer:- A function pointer is a variable that holds the address of a function.
+
+note: we can call a function in a two ways
+1. using directly by function name 
+2. by using function pointer.
+
+
+CALLBACK FUNCTION: a function which takes address of another function as an argument called callback function.
