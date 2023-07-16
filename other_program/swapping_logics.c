@@ -8,7 +8,7 @@ printf("Before a=%d    b=%d\n", a, b);
 
 
 printf("sum = %d\n", a-(-b)); // sum without '+' symbol
-printf("sub = %d\n", a+(~b+1));  // sub without '-' symbol
+printf("sub = %d\n", a+(~b+1));  // sub without '-' symbol   (~30  = -31)
 printf("sum = %d\n", a-(~b+1));  // sum without '+' symbol
 
 
