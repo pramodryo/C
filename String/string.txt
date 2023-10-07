@@ -1,1 +1,6 @@
-
+STRING:
+'\0' is nothing but null terminator.
+A String in C programming is a sequence of characters terminated with a null character ‘\0’. 
+The C String is stored as an array of characters. 
+The difference between a character array and a C string is the string is terminated with a unique character ‘\0’.
+scanf function add '\0' at the end of string  and it is intruction based. when we use %s as format specifire then scanf function will add '\0Z' 
